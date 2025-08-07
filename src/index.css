@@ -2,33 +2,34 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: hsl(0, 0%, 90%);
+  background-color: hsl(40, 16%, 37%);
 }
 .stopwatch{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-top:  5rem;
   border: 3px solid;
   border-radius: 50px;
-  background-color: rgb(196, 194, 194);
-  padding: 30px;
+  background-color: rgb(166, 221, 200);
+  padding: 100px;
 }
 .display{
-  font-size: 5rem;
+  font-size: 10rem;
   font-family: monospace;
   font-weight: bold;
   color: rgba(32, 31, 31, 0.52);
   text-shadow: 2px 2px 2px rgb(192, 190, 190);
 }
 .controls button{
-  font-size: 1.5rem;
+  font-size: 4rem;
   font-weight: bold;
   padding: 10px 20px;
-  margin: 5px;
+  margin: 1.5rem;
   min-width: 120px;
   border: none;
-  border-radius: 10px;
+  border-radius: 20px;
   cursor: pointer;
   color: white;
   transition: background-color ease 0.4s;
