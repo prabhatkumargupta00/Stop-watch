@@ -2,7 +2,10 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: hsl(40, 16%, 37%);
+  height: 100vh;
+  /* background-color: hsl(40, 16%, 37%); */
+  background: linear-gradient(rgb(199, 158, 158), rgb(112, 112, 73));
+  overflow: hidden;
 }
 .stopwatch{
   display: flex;
@@ -14,6 +17,7 @@ body{
   border-radius: 50px;
   background-color: rgb(166, 221, 200);
   padding: 100px;
+  box-shadow: 2px 10px 25px rgb(83, 77, 77), -2px 10px 25px rgb(83, 77, 77);
 }
 .display{
   font-size: 10rem;
@@ -24,7 +28,7 @@ body{
 }
 .controls button{
   font-size: 4rem;
-  font-weight: bold;
+  font-weight: 500;
   padding: 10px 20px;
   margin: 1.5rem;
   min-width: 120px;
@@ -32,8 +36,14 @@ body{
   border-radius: 20px;
   cursor: pointer;
   color: white;
-  transition: background-color ease 0.4s;
+  transition: all ease 0.2s;
+  box-shadow: 5px 5px 10px black;
 }
+.controls button:hover{
+  scale: 1.05;
+
+}
+
 .start-button{
   background-color: hsl(120, 60%, 55%);
 }
