@@ -42,12 +42,7 @@ function StopWatch() {
         seconds = String(seconds).padStart(2, "0");
         miliSeconds = String(miliSeconds).padStart(2, "0");
 
-
-
-
         return `${minutes}:${seconds}:${miliSeconds}`
-
-
 
         // return `00:00:00`
     }
